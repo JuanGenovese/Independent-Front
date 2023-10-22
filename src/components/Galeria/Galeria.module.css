@@ -1,4 +1,30 @@
 .GaleriaConteiner{
     height: 100vh;
     width: 98vw;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyectos{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.proyecto1 {
+    border: 2px solid red;
+}
+
+.proyecto2 {
+    border: 2px solid red;
+}
+
+.proyecto3 {
+    border: 2px solid red;
+}
+
+.proyecto4 {
+    border: 2px solid red;
 }
