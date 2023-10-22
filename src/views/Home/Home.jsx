@@ -1,4 +1,5 @@
 import React from 'react'
+import { Galeria, Servicios, Equipo } from '../../components/IndexComponents'
 import style from "./Home.module.css"
 
 const Home = () => {
@@ -12,9 +13,10 @@ const Home = () => {
           <h1>Make your business</h1>
         <h1>online</h1>
         </div>
-        
       </div>
-        
+      <Servicios/>
+      <Galeria/>
+      <Equipo/>
     </div>
   )
 }

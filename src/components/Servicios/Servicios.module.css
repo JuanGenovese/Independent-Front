@@ -1,0 +1,55 @@
+.serviciosConteiner {
+    width: 98vw;
+    height: 100vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.UXUIConteiner {
+    height: 25vh;
+    width: 100%;
+    background-image: url("/public/UXUI.JPG");
+    background-position: center;
+    background-size: cover;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 4px 10px black;
+}
+
+.FrontEndConteiner{
+    height: 25vh;
+    width: 100%;
+    background-image: url("/public/front.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 4px 10px black;
+}
+
+.BackEndConteiner{
+    height: 25vh;
+    width: 100%;
+    background-image: url("/public/back.png");
+    background-position: center;
+    background-size: cover;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 4px 10px black;
+}

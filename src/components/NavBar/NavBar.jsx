@@ -8,19 +8,19 @@ const NavBar = () => {
       <h1 className={style.title}>IndependenT</h1>
       <div className={style.buttonsMid}>
         <Link to="#galeria">
-          <button className={style.buttonMid1}>galeria</button>
+          <button className={style.buttonMid1}>services</button>
         </Link>
         <Link to="#servicios">
-          <button className={style.buttonMid2}>servicios</button>
+          <button className={style.buttonMid2}>galery</button>
         </Link>
         <Link to="#equipo">
-          <button className={style.buttonMid3}>equipo</button>
+          <button className={style.buttonMid3}>team</button>
         </Link>
         
         
       </div>
       <div className={style.contactConteiner}>
-        <button className={style.contactButton}>contactanos</button>
+        <button className={style.contactButton}>contact</button>
       </div>
       
     </div>

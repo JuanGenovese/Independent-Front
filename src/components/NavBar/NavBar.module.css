@@ -1,5 +1,5 @@
 .NavConteiner {
-    max-width: 100vw;
+    width: 100vw;
     height: 20vh;
     position: fixed;
     top: 0;
@@ -29,33 +29,33 @@
 }
 
 .buttonMid1 {
-    width: 15vw;
+    width: 13.33vw;
     height: 6vh;
     border: none;
     border-top-left-radius: 75px;
     border-bottom-left-radius: 75px;
-    background-color: rgba(20, 20, 20, 0.5);
+    background-color: rgba(20, 20, 20, 0.9);
     color: #dedede;
     font-weight: bold;
 }
 
 .buttonMid2 {
-    width: 15vw;
+    width: 13.33vw;
     height: 6vh;
     border: none;
-    background-color: rgba(20, 20, 20, 0.5);
+    background-color: rgba(20, 20, 20, 0.9);
     color: #dedede;
     font-weight: bold;
 }
 .hola {color: (29, 21, 36)}
 
 .buttonMid3 {
-    width: 15vw;
+    width: 13.33vw;
     height: 6vh;
     border: none;
     border-top-right-radius: 75px;
     border-bottom-right-radius: 75px;
-    background-color: rgba(20, 20, 20, 0.5);
+    background-color: rgba(20, 20, 20, 0.9);
     color: #dedede;
     font-weight: bold;
 
@@ -76,6 +76,6 @@
     border-radius: 75px;
     color: #dedede;
     font-weight: bold;
-    background-color: rgba(20, 20, 20, 0.5);
+    background-color: rgba(20, 20, 20, 0.9);
     border: 2px solid rgb(71, 0, 71)
 }

@@ -1,9 +1,13 @@
 import React from 'react';
-import style from "Galeria.module.css";
+import style from "./Galeria.module.css";
 
 const Galeria = () => {
   return (
-    <div>Galeria</div>
+    <div className={style.GaleriaConteiner}>
+      <div> proyectos </div>
+      <div> proyectos </div>
+      <div> proyectos </div>
+    </div>
   )
 }
 

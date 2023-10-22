@@ -1,0 +1,74 @@
+.equipoConteiner{
+    height: 100%;
+    width: 98.5vw;
+}
+
+.equipoPresentacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartel h2 {
+    height: 20vh;
+    font-size: 8rem;
+}
+
+.cartel p {
+    text-align: center;
+    margin-top: 5vh;
+    width: 25vw;
+    font-size: 0.9rem;
+}
+
+.equipo{
+    margin-top: 15vh;
+    width: 98%;
+    margin-left: 1%;
+    margin-bottom: 10vh;
+}
+
+.teamMember {
+    border-top: 1px solid #dedede;
+    height: 15vh;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+
+}
+
+.teamMemberData{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 80vw;
+}
+
+.teamMemberData h3 {
+    font-size: 2rem;
+}
+
+
+.teamMemberBottom {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    height: 15vh;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+.teamMember p {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    
+}
+
+.teamMemberBottom p {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+
+}
