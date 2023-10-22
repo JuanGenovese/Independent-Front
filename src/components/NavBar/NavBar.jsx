@@ -1,14 +1,23 @@
 import React from 'react';
-import style from "./NavBar.module.css"
+import style from "./NavBar.module.css";
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
     <div className={style.NavConteiner}>
       <h1 className={style.title}>IndependenT</h1>
       <div className={style.buttonsMid}>
-        <button className={style.buttonMid1}>proyectos</button>
-        <button className={style.buttonMid2}>noticias</button>
-        <button className={style.buttonMid3}>equipo</button>
+        <Link to="#galeria">
+          <button className={style.buttonMid1}>galeria</button>
+        </Link>
+        <Link to="#servicios">
+          <button className={style.buttonMid2}>servicios</button>
+        </Link>
+        <Link to="#equipo">
+          <button className={style.buttonMid3}>equipo</button>
+        </Link>
+        
+        
       </div>
       <div className={style.contactConteiner}>
         <button className={style.contactButton}>contactanos</button>

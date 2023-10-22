@@ -1,7 +1,21 @@
 .homeConteiner {
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.presentacion {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan {
+    width: 50vw;
+    height: 80vh;
+    border: 2px solid red;
 }
