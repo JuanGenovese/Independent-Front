@@ -4,13 +4,13 @@ import style from "./Galeria.module.css";
 const Galeria = () => {
   return (
     <div className={style.GaleriaConteiner}>
-      <div className={style.proyectos}>
-        <div className={style.proyecto1}> proyectos </div>
-        <div className={style.proyecto2}> proyectos </div>
-        <div className={style.proyecto3}> proyectos </div>
-        <div className={style.proyecto4}> proyectos </div>
+      <div className={style.proyectosFotos}>
+        <img className={style.proyecto}/>
+        <img className={style.proyecto}/>
+        <img className={style.proyecto}/>
+        <img className={style.proyecto}/>
       </div>
-        
+      
     </div>
   )
 }

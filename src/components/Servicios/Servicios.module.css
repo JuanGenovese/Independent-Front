@@ -12,7 +12,7 @@
 .UXUIConteiner {
     height: 25vh;
     width: 100%;
-    background-image: url("/public/UXUI.JPG");
+    background-image: url("/UXUI.jpg");
     background-position: center;
     background-size: cover;
     font-size: 2.5rem;
@@ -27,7 +27,7 @@
 .FrontEndConteiner{
     height: 25vh;
     width: 100%;
-    background-image: url("/public/front.jpg");
+    background-image: url("/front.jpg");
     background-position: center;
     background-size: cover;
     font-size: 2.5rem;
@@ -42,7 +42,7 @@
 .BackEndConteiner{
     height: 25vh;
     width: 100%;
-    background-image: url("/public/back.png");
+    background-image: url("/back.png");
     background-position: center;
     background-size: cover;
     font-size: 2.5rem;
