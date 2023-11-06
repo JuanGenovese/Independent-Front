@@ -7,13 +7,13 @@ const NavBar = () => {
     <div className={style.NavConteiner}>
       <h1 className={style.title}>IndependenT</h1>
       <div className={style.buttonsMid}>
-        <Link to="#galeria">
+        <Link to="#galeria" className={style.Link}>
           <button className={style.buttonMid1}>services</button>
         </Link>
-        <Link to="#servicios">
-          <button className={style.buttonMid2}>galery</button>
+        <Link to="#servicios" className={style.Link}>
+          <button className={style.buttonMid2}>works</button>
         </Link>
-        <Link to="#equipo">
+        <Link to="#equipo" className={style.Link}>
           <button className={style.buttonMid3}>team</button>
         </Link>
         

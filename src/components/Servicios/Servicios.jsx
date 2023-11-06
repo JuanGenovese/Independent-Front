@@ -4,9 +4,22 @@ import style from "./Servicios.module.css";
 const Servicios = () => {
   return (
     <div className={style.serviciosConteiner}>
-      <div className={style.UXUIConteiner}><p>UX/UI design</p></div>
-      <div className={style.FrontEndConteiner}><p>FrontEnd development</p></div>
-      <div className={style.BackEndConteiner}><p>BackEnd development</p></div>
+      <div className={style.UXUIConteiner}>
+        <div className={style.bg}>
+          <p>UX/UI design</p>
+        </div>
+      </div>
+      <div className={style.FrontEndConteiner}>
+        <div className={style.bg}>
+          <p>Front - End development</p>
+        </div>
+      </div>
+      <div className={style.BackEndConteiner}>
+        <div className={style.bg}>
+          <p>Back - End development</p>
+        </div>
+        
+      </div>
     </div>
   )
 }

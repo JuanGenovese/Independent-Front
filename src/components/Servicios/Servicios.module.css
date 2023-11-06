@@ -1,5 +1,5 @@
 .serviciosConteiner {
-    width: 98vw;
+    width: 100%;
     height: 100vh;
     padding-top: 10vh;
     display: flex;
@@ -9,10 +9,19 @@
     
 }
 
-.UXUIConteiner {
-    height: 25vh;
+.bg {
+    background-color: rgba(0, 0, 0, 0.838);
     width: 100%;
-    background-image: url("/UXUI.jpg");
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UXUIConteiner {
+    height: 27vh;
+    width: 100%;
+    background-image: url("/UXUI.png");
     background-position: center;
     background-size: cover;
     font-size: 2.5rem;
@@ -21,11 +30,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 4px 4px 10px black;
+    text-shadow: 5px 5px 6px black;
 }
 
+
+
 .FrontEndConteiner{
-    height: 25vh;
+    height: 27vh;
     width: 100%;
     background-image: url("/front.jpg");
     background-position: center;
@@ -36,13 +47,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 4px 4px 10px black;
+    text-shadow: 4px 4px 6px black;
 }
 
 .BackEndConteiner{
-    height: 25vh;
+    height: 27vh;
     width: 100%;
-    background-image: url("/back.png");
+    background-image: url("/back.jpg");
     background-position: center;
     background-size: cover;
     font-size: 2.5rem;
@@ -51,5 +62,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 4px 4px 10px black;
+    text-shadow: 4px 4px 6px black;
 }

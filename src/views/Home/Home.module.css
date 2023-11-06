@@ -17,7 +17,7 @@
 }
 
 .slogan {
-    width: 45vw;
+    width: 40vw;
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -31,9 +31,14 @@
 
 .ilustracion {
     height: 100vh;
-    width: 45vw;
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
+}
+
+.ilustracion img {
+    object-fit: cover;
+    height: 75vh;
 }
