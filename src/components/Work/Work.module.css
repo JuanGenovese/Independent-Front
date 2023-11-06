@@ -94,3 +94,43 @@
     text-decoration: none;
     color: #b2b2b2;
 }
+
+@media screen and (max-width: 991px) {
+    .proyect {
+        justify-content: space-between;
+        margin-top: 0;
+        height: 20vh;
+
+    }
+
+    .projectName {
+        font-size: 1.6rem;
+        justify-content: flex-start;
+    }
+
+    .projectDetails{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .workAreas{
+        display: none;
+    }
+
+    .workMembers p{
+        font-size: 1rem;
+        font-weight:100;
+    }
+
+    .viewMore {
+        font-size: 2rem;
+    }
+
+    .iconExpand {
+        width: 5vw;
+        height: 13vh;
+        margin-left: 1.5vw;
+        font-size: 3rem;
+    }
+}

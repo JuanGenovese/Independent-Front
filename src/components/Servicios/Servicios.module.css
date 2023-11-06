@@ -10,7 +10,7 @@
 }
 
 .bg {
-    background-color: rgba(0, 0, 0, 0.838);
+    background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
     height: 100%;
     display: flex;
@@ -63,4 +63,18 @@
     justify-content: center;
     align-items: center;
     text-shadow: 4px 4px 6px black;
+}
+
+@media screen and (max-width: 991px) {
+    .UXUIConteiner{
+       font-size: 1.5rem; 
+    }
+    
+    .FrontEndConteiner{
+        font-size: 1.5rem;
+    }
+
+    .BackEndConteiner {
+        font-size: 1.5rem;
+    }
 }

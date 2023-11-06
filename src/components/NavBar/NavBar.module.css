@@ -1,5 +1,4 @@
 .NavConteiner {
-    width: 100vw;
     height: 15vh;
     position: fixed;
     top: 0;
@@ -30,7 +29,7 @@
     
 }
 
-.buttonMid1 {
+.buttonMid1, .buttonMid2, .buttonMid3 {
     width: 10vw;
     height: 4vh;
     display: flex;
@@ -42,36 +41,6 @@
     background-color: rgba(0, 0, 0, 0);
     color: #dedede;
     font-weight: bold;
-}
-
-.buttonMid2 {
-    width: 10vw;
-    height: 4vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-bottom: 2px solid rgb(130, 130, 130);
-    padding-bottom: 2vh;
-    background-color: rgba(0, 0, 0, 0);
-    color: #dedede;
-    font-weight: bold;
-}
-.hola {color: (29, 21, 36)}
-
-.buttonMid3 {
-    width: 10vw;
-    height: 4vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-bottom: 2px solid rgb(130, 130, 130);
-    padding-bottom: 2vh;
-    background-color: rgba(0, 0, 0, 0);
-    color: #dedede;
-    font-weight: bold;
-
 }
 
 .contactConteiner{
@@ -95,4 +64,24 @@
 
 .Link {
     text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+    .title {
+        font-size: 1em;
+        width: 30vw;
+    }
+
+    .buttonsMid {
+        display: none;
+    }
+
+    .contactConteiner{
+        width: 40%;
+
+    }
+
+    .contactButton{
+       width: 20vw;
+    }
 }

@@ -42,3 +42,30 @@
     object-fit: cover;
     height: 75vh;
 }
+
+@media screen and (max-width: 991px) {
+    .slogan {
+        width: 80vw;
+        align-items: center;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 0vh;
+        border-left: none;
+        z-index: 1;
+    }
+
+    .slogan h1 {
+        margin: 0;
+        text-shadow: 4px 4px 10px rgb(0, 0, 0);
+    }
+
+    .ilustracion {
+        position: absolute;
+        margin-top: 0vh;
+    }
+
+    .ilustracion img {
+        height: 50vh;
+    }
+
+}
