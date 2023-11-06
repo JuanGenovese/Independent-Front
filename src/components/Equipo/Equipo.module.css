@@ -1,11 +1,10 @@
 .equipoConteiner{
     height: 100%;
-    width: 98.5vw;
+    width: 100%;
 }
 
 .equipoPresentacion{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -24,8 +23,8 @@
 
 .equipo{
     margin-top: 15vh;
-    width: 98%;
-    margin-left: 1%;
+    width: 90%;
+    margin-left: 5%;
     margin-bottom: 10vh;
 }
 
@@ -45,8 +44,13 @@
     width: 80vw;
 }
 
-.teamMemberData h3 {
+.JuanCruz {
     font-size: 2rem;
+}
+
+.Ulises {
+    font-size: 2rem;
+    margin-right: 5vw;
 }
 
 
@@ -71,4 +75,36 @@
     flex-direction: column;
     height: fit-content;
 
+}
+
+@media screen and (max-width: 991px) {
+    .cartel h2 {
+        height: 2vh;
+        font-size: 5rem;
+    }
+
+    .cartel p {
+        margin-top: 13vh;
+        width: 75vw;
+        font-size: 0.9rem;
+    }
+
+    .equipo{
+        margin-top: 5vh;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 5vh;
+    }
+
+    .JuanCruz {
+        font-size: 1rem;
+    }
+
+    .Ulises {
+        font-size: 1rem;
+    }
+
+    .teamMemberData p span{
+        font-size: 0.8rem;
+    }
 }

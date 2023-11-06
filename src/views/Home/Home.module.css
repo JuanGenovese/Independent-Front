@@ -17,7 +17,7 @@
 }
 
 .slogan {
-    width: 45vw;
+    width: 40vw;
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -26,14 +26,49 @@
     font-size: 2rem;
     border-left: 6px solid #b2b2b2;
     padding-left: 3vw;
-    margin-top: 10vh;
+}
+
+.slogan h1 {
+    margin: 0;
 }
 
 .ilustracion {
     height: 100vh;
-    width: 45vw;
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
+}
+
+.ilustracion img {
+    object-fit: cover;
+    height: 75vh;
+}
+
+@media screen and (max-width: 991px) {
+    .slogan {
+        width: 80vw;
+        align-items: center;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 0vh;
+        border-left: none;
+        z-index: 1;
+    }
+
+    .slogan h1 {
+        margin: 0;
+        text-shadow: 4px 4px 10px rgb(0, 0, 0);
+    }
+
+    .ilustracion {
+        position: absolute;
+        margin-top: 0vh;
+    }
+
+    .ilustracion img {
+        height: 50vh;
+    }
+
 }

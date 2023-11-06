@@ -1,0 +1,136 @@
+.GaleriaConteiner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30vh;
+}
+
+.proyect {
+    height: 30vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.projectName{
+    width: 60%;
+    height: 100%;
+    font-size: 4rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    padding-left: 5vw;
+    align-items: center;
+}
+
+.projectDetails{
+    width: 40%;
+    height: 100%;
+}
+
+.workMembers{
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.icon {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.workMembers p {
+    margin-right: 2.5vw;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.workAreas {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+.workAreas p {
+    border: 2px solid rgb(130, 130, 130);
+    border-radius: 100px;
+    padding: 1vh 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.viewMore {
+    width: 90%;
+    height: 100%;
+    font-size: 4rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconExpand {
+    width: 5vw;
+    height: 13vh;
+    margin-left: 1.5vw;
+    font-size: 4rem;
+}
+
+.Link {
+    width: 90%;
+    text-decoration: none;
+    color: #b2b2b2;
+}
+
+@media screen and (max-width: 991px) {
+    .proyect {
+        justify-content: space-between;
+        margin-top: 0;
+        height: 20vh;
+
+    }
+
+    .projectName {
+        font-size: 1.6rem;
+        justify-content: flex-start;
+    }
+
+    .projectDetails{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .workAreas{
+        display: none;
+    }
+
+    .workMembers p{
+        font-size: 1rem;
+        font-weight:100;
+    }
+
+    .viewMore {
+        font-size: 2rem;
+    }
+
+    .iconExpand {
+        width: 5vw;
+        height: 13vh;
+        margin-left: 1.5vw;
+        font-size: 3rem;
+    }
+}
