@@ -26,7 +26,10 @@
     font-size: 2rem;
     border-left: 6px solid #b2b2b2;
     padding-left: 3vw;
-    margin-top: 10vh;
+}
+
+.slogan h1 {
+    margin: 0;
 }
 
 .ilustracion {
