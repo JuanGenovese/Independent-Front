@@ -59,8 +59,6 @@ const Galeria = () => {
           <p className={style.viewMore}>view all proyects <i className={`bi bi-arrows-angle-expand ${style.iconExpand}`}></i></p>
         </Link>
       </div>
-
-      <div className={style.proyect}></div>
     </div>
   )
 }

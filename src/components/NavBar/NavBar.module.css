@@ -25,8 +25,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .buttonMid1, .buttonMid2, .buttonMid3 {
@@ -41,6 +40,13 @@
     background-color: rgba(0, 0, 0, 0);
     color: #dedede;
     font-weight: bold;
+    transition: 0.2s;
+}
+
+.buttonMid1:hover, .buttonMid2:hover, .buttonMid3:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    border-bottom: 2px solid rgb(131, 39, 77);
 }
 
 .contactConteiner{
@@ -59,7 +65,14 @@
     color: #dedede;
     font-weight: bold;
     background-color: rgba(20, 20, 20, 0.9);
-    border: 2px solid rgb(130, 130, 130)
+    border: 2px solid rgb(130, 130, 130);
+    transition: 0.4s;
+}
+
+.contactButton:hover {
+    cursor: pointer;
+    transition: 0.4s;
+    border: 2px solid rgb(131, 39, 77)
 }
 
 .Link {

@@ -18,13 +18,13 @@ const Equipo = () => {
       <div className={style.equipo}>
         <div className={style.teamMember}>
           <div className={style.teamMemberData}>
-            <h3 className={style.JuanCruz}> Juan Cruz Genovese</h3>
+            <h3 className={style.JuanCruz}> Juan Cruz</h3>
             <p><span>FullStack Dev</span><span>UX/UI Designer</span></p>
           </div>
         </div>
         <div className={style.teamMemberBottom}>
           <div className={style.teamMemberData}>
-            <h3 className={style.Ulises}>Ulises Farfan</h3>
+            <h3 className={style.Ulises}>Ulises</h3>
             <p><span>FullStack Dev</span></p>
           </div>
         </div>

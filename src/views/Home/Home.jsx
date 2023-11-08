@@ -10,8 +10,8 @@ const Home = () => {
           <img src="/ilustracion2.png" alt="ilustracion" />
         </div>
         <div className={style.slogan}>
-          <h1>Do your business</h1>
-          <h1>we code it</h1>
+          <h1>Do your <span className={style.span}>business</span></h1>
+          <h1>we <span className={style.span}>code</span> it</h1>
         </div>
       </div>
       <Servicios/>
