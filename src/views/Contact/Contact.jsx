@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import style from "./Contact.module.css";
 
 const initForm = {
@@ -6,33 +6,36 @@ const initForm = {
   email: "",
   project: ""
 }
-const Contact = ({ contextMenuRef, closeContant }) => {
-  const [form, setForm] = React.useState(initForm);
-  const [error, setError] = React.useState(null)
+
+const Contact = ({ contextMenuRef, closeContact }) => {
+  const [form, setForm] = useState(initForm)
+  const [error, setError] = useState(null)
+
   const handleSubmit = () => {
+
     if (form.name === "") {
       setError("The name input is missing.")
-      return;
-    };
+      return
+    }
+
     if (form.email === "") {
       setError("The name email is missing.")
-      return;
-    };
+      return
+    }
+
     if (form.project === "") {
       setError("The name project is missing.")
-      return;
-    };
-    setError(null);
-    setForm(initForm);
-    closeContant()
-    console.log(form)
-  };
+      return
+    }
+
+    console.log(input.value)
+  }
+
+
   return (
     <section className={style.contactContainer}>
       <div ref={contextMenuRef} className={style.formContainer}>
-        <h2>
-          Contact
-        </h2>
+        <h2>Contact</h2>
         <form onSubmit={handleSubmit} className={style.form}>
           {error && error}
           <input

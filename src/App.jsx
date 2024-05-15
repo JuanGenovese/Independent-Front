@@ -1,8 +1,7 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import { Home } from './views/indexViews';
-import { NavBar } from './components/IndexComponents';
-
+import { NavBar, Loader } from './components/IndexComponents';
 
 function App() {
 

@@ -37,15 +37,22 @@
     border: none;
     border-bottom: 2px solid rgb(130, 130, 130);
     padding-bottom: 2vh;
-    background-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
     color: #dedede;
     font-weight: bold;
-    transition: 0.2s;
+    transition: 1s;
 }
 
 .buttonMid1:hover, .buttonMid2:hover, .buttonMid3:hover {
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.3s;
+    background:linear-gradient(
+        to top, 
+        rgba(131, 39, 77, 0.4),
+        rgba(131, 39, 77, 0.2),
+        rgba(131, 39, 77, 0.1), 
+        rgba(0, 0, 0, 0)
+    );
     border-bottom: 2px solid rgb(131, 39, 77);
 }
 

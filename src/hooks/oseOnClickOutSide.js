@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 
-export const useOnClickOutSide = (ref, handler) => {
+const useOnClickOutSide = (ref, handler) => {
+
   useEffect(() => {
     const listener = (e) => {
       const el = ref?.current
@@ -20,3 +21,5 @@ export const useOnClickOutSide = (ref, handler) => {
 
   }, [ref, handler])
 }
+
+export default useOnClickOutSide;

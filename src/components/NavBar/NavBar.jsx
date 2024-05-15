@@ -1,21 +1,25 @@
 import React, { useState, useRef } from 'react';
-import style from "./NavBar.module.css";
 import { Link } from 'react-router-dom';
-import Contact from '../../views/Contact/Contact';
 import { useOnClickOutSide } from '../../hooks/oseOnClickOutSide';
+
+import Contact from '../../views/Contact/Contact';
+import style from "./NavBar.module.css";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const contextMenuRef = useRef(null);
 
-  const closeContant = () => {
+  const closeContact = () => {
     setIsOpen(false);
-  };
+  }
 
-  useOnClickOutSide(contextMenuRef, closeContant);
+  useOnClickOutSide(contextMenuRef, closeContact);
+
   return (
     <div className={style.NavConteiner}>
+
       <h1 className={style.title}>IndependenT</h1>
+
       <div className={style.buttonsMid}>
         <Link to="#galeria" className={style.Link}>
           <button className={style.buttonMid1}>services</button>
@@ -26,13 +30,13 @@ const NavBar = () => {
         <Link to="#equipo" className={style.Link}>
           <button className={style.buttonMid3}>team</button>
         </Link>
-
-
       </div>
+
       <div className={style.contactConteiner}>
         <button className={style.contactButton} onClick={() => setIsOpen(true)}>contact</button>
-        {isOpen && <Contact contextMenuRef={contextMenuRef} closeContant={closeContant} />}
+        {isOpen && <Contact contextMenuRef={contextMenuRef} closeContant={closeContact} />}
       </div>
+
     </div>
   )
 }
